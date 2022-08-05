@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora Básica</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section>
+        <div class="main">
+           <form action="" name="Calculadora">
+            <input type="text" class="text maincolor" name="text1" disabled>
+            <input type="text" class="text1 maincolor" name="text12" value="C"  onclick="location.reload()"><br>
+            <!--linha1-->
+            <input type="button" class="num maincolor" name="but9" value="9" onclick="displaynum(but9.value)">
+            <input type="button" class="num maincolor" name="but8" value="8" onclick="displaynum(but8.value)">
+            <input type="button" class="num maincolor" name="but7" value="7" onclick="displaynum(but7.value)">
+            <input type="button" class="num blue" name="addbut" value="+" onclick="displaynum(addbut.value)"><br>
+            <!--linha2-->
+            <input type="button" class="num maincolor" name="but6" value="6" onclick="displaynum(but6.value)">
+            <input type="button" class="num maincolor" name="but5" value="5" onclick="displaynum(but5.value)">
+            <input type="button" class="num maincolor" name="but4" value="4" onclick="displaynum(but4.value)">
+            <input type="button" class="num pink" name="subbut" value="-" onclick="displaynum(subbut.value)"><br>
+            <!--linha3-->
+            <input type="button" class="num maincolor" name="but3" value="3" onclick="displaynum(but3.value)">
+            <input type="button" class="num maincolor" name="but2" value="2" onclick="displaynum(but2.value)">
+            <input type="button" class="num maincolor" name="but1" value="1" onclick="displaynum(but1.value)">
+            <input type="button" class="num green" name="mulbut" value="*" onclick="displaynum(mulbut.value)"><br>
+            <!--linha4-->
+            <input type="button" class="num maincolor" name="dot" value="." onclick="displaynum(dot.value)">
+            <input type="button" class="num maincolor" name="but0" value="0" onclick="displaynum(but0.value)">
+            <input type="button" class="num purple" name="equalbut" value="=" onclick="text1.value=eval(text1.value)">
+            <input type="button" class="num orange" name="divbut" value="/" onclick="displaynum(divbut.value)"><br>
+           </form>
+        </div>
+    </section>
+</body>
+    <script src="script.js"></script>
+
+</html>
