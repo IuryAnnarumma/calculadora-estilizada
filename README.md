@@ -1,10 +1,11 @@
 # calculadora-estilizada
 
 ## Sobre o Projeto
-Trata-se de uma calculadora básica, funcional e responsiva.
+Trata-se de uma calculadora básica, funcional e responsiva que criei como meu primeiro projeto.
 
-### Assista o vídeo da minha calculadora:
-[![Vídeo Calculadora Estilizada](https://img.youtube.com/vi/watch?v=D9xKh2LzfZ0.jpg)](https://www.youtube.com/watch?v=D9xKh2LzfZ0)
+<img height="300em" src="https://github.com/IuryAnnarumma/assets-github/blob/main/calculadora-img.png"/>
+
+[Confira o vídeo da calculadora funcionando (youtube)](https://www.youtube.com/watch?v=D9xKh2LzfZ0)
 
 * Tecnologias utilizadas:
   * HTML  
